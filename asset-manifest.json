@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.a8d02abe.css",
-    "main.js": "/static/js/main.de1d6dff.js",
-    "index.html": "/index.html",
-    "main.a8d02abe.css.map": "/static/css/main.a8d02abe.css.map",
-    "main.de1d6dff.js.map": "/static/js/main.de1d6dff.js.map"
+    "main.css": "/OvaFrontend/static/css/main.a8d02abe.css",
+    "main.js": "/OvaFrontend/static/js/main.e1a7191c.js",
+    "index.html": "/OvaFrontend/index.html",
+    "main.a8d02abe.css.map": "/OvaFrontend/static/css/main.a8d02abe.css.map",
+    "main.e1a7191c.js.map": "/OvaFrontend/static/js/main.e1a7191c.js.map"
   },
   "entrypoints": [
     "static/css/main.a8d02abe.css",
-    "static/js/main.de1d6dff.js"
+    "static/js/main.e1a7191c.js"
   ]
 }
