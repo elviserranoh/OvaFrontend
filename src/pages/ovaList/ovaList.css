@@ -1,0 +1,39 @@
+.userList {
+    flex: 4;
+    padding: 20px;
+  }
+  
+  .userListEdit {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #3bb077;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+  .userListDelete {
+    color: red;
+    cursor: pointer;
+  }
+  
+  .gridContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .gridHead {
+    align-self: flex-end;
+  }
+
+  .ovaListName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ovaListImage {
+    width: 60px;
+    margin-right: 10px;
+  }
