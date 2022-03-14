@@ -49,7 +49,7 @@ function App() {
             component={ForgotPassword}
           />
           <PrivateRoute
-            path=""
+            path="/"
             rol={rol}
             isAuthenticated={isAuthenticated}
             component={DashboardRoute}
