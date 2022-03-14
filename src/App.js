@@ -8,6 +8,7 @@ import { DashboardRoute } from "./routes/DashboardRoute";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { setAuthentication, startLogoutAuth } from "./duck/auth";
+import { HashRouter } from "react-router-dom";
 function App() {
   const dispatch = useDispatch();
   const state = useSelector((state) => state.auth);
@@ -34,7 +35,7 @@ function App() {
   return (
     <Router>
       <div>
-        <Switch>
+        <HashRouter>
           <PublicRoute
             exact
             path="/login"
@@ -48,12 +49,12 @@ function App() {
             component={ForgotPassword}
           />
           <PrivateRoute
-            path="/"
+            path=""
             rol={rol}
             isAuthenticated={isAuthenticated}
             component={DashboardRoute}
           />
-        </Switch>
+        </HashRouter>
       </div>
     </Router>
   );
